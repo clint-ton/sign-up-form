@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Norse;
+  src: url(/assets/Norse-Bold.otf);
+}
+
+.sidebar {
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+
+.logo-img {
+  height: 90%;
+  width: auto;
+}
+.sidebar-img {
+  height: 100%;
+  max-width: 40vw;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.logo-txt {
+  color: white;
+  font-family: Norse;
+  font-size: 8rem;
+}
+
+.logo {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  height: 15%;
+  width: 100%;
+  top: 25vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.top,
+.bottom {
+  height: 33vh;
+  background-color: #f9fafb;
+}
+.main {
+  height: 34vh;
+  backdrop-filter: blur(10px);
+}
